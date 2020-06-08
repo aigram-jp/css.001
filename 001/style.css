@@ -1,0 +1,44 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.bg {
+    height:100vh;
+    background-color: green;
+    color: black;
+ 
+    background-image: url("https://cryptokoi.mochalab.jp/logo512.png");
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    font-weight: bold;
+}
+
+ 
+.header {
+    height: 50px;
+    color: red;
+}
+ 
+.footer {
+    height: 50px;
+    color: red;
+}
+ 
+.main {
+    height: calc( 100vh - 100px );
+    background-color: snow;
+    opacity: 0.9;
+}
+ 
+p {
+    font-size: 20px;
+}
+ 
+h1 {
+    color: black;
+    opacity: 1.0; 
+}
